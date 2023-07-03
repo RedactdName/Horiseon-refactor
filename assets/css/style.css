@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* Changed div containing all code displayed on webpage to sematic term 'body' */
 body {
     background-color: #d9dcd6;
 }
-
+/* Changed div beneath body to element header, removed class and adjusted correlating CSS to assigned element. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* changed from div to nav for semantic and accessability purposes */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +31,11 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* repeated change to element from class to reflect HTML changes. */
 header nav ul {
     list-style-type: none;
 }
-
+/* repeated change to element from class to reflect HTML changes. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -46,7 +46,7 @@ a {
     text-decoration: none;
 }
 
-
+/* Renamed div to figure for the background banner image, did not alter class attribute. */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,7 +55,7 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* div renamed to main */
 main {
     width: 75%;
     display: inline-block;
@@ -70,7 +70,7 @@ h2 {
 p {
     font-size: 16px;
 }
-
+/* div renamed to section, condensed CSS and eliminated classes to clean up */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -79,7 +79,7 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* renamed and changed from class to element to reflect HTML changes and eliminate redundencies */
 section img {
     max-height: 200px;
 }
@@ -93,7 +93,7 @@ section img {
     float: right;
     margin-left: 25px;
 }
-
+/* renamed from div to show distinction and difference from main on webpage */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -105,29 +105,29 @@ aside {
     background-color: #2589bd;
     color: #ffffff;
 }
-
+/* rearranged to show logical sequential order of headings */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* renamed and changed to reflect HTML changes */
 aside figure {
     margin-bottom: 32px;
 }
-
+/* renamed and changed to reflect HTML changes */
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* div changed to semantic element */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* renamed and changed to reflect HTML changes */
 footer h2 {
     font-size: 20px;
 }
