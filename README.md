@@ -1,4 +1,4 @@
-# week1-refactor-seo
+# Horiseon Homepage
 Week 1 Challenge
 
 ## Description
